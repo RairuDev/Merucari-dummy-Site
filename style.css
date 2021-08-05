@@ -1,0 +1,340 @@
+@charset "UTF-8";
+html {
+  overflow: auto
+}
+  body {
+    min-width: 1400px;
+    overflow-x: hidden;
+  }
+      .width{
+        margin:0px 150px;
+      }
+      .header-container{
+        display: flex;
+        margin-bottom: 5px;
+      }
+          .mercari-logo img {
+            margin: 10px 30px 0px 60px;
+            width: 135px;
+            height: 36px;
+            cursor: pointer;
+          }
+        .Search-box {
+          margin: 10px;
+          font-size: 15px;
+          text-align: left;
+        }
+          .form-box{
+            display:flex;
+            border: 1px solid lightgrey;
+            width: 840px;
+            height: 40px;
+            border-radius: 5px;
+          }
+            .form-input{
+              padding-left: 10px;
+              border: none;
+              width: 840px;
+              font-size: 16px;
+            }
+            .form-button{
+              border: none;
+            }
+      .top-container{
+        display: flex;
+        margin-bottom: 10px;
+        align-items: center;
+        height: 20px;
+        width: 1400px;
+      }
+      .category-wrapper a{
+        display: flex;
+        text-decoration: none;
+      }
+      .category-left img{
+        margin: 0px 5px 0px 60px;
+        width: 20px;
+        height: 20px;
+      }
+          .category-right img{
+            margin: 0px 5px 0px 20px;
+            width: 20px;
+            height: 20px;
+          }
+          .category-item{
+            font-weight: bold;
+            font-size: 14px;
+            color: #000;
+          }
+        .container-egistration{
+            border: 1px solid;
+            border-radius: 5px;
+            background-color: #fc0303;
+            border-color: #fc0303;
+            margin: 0px 10px 0px 525px;
+            padding: 5px;
+        }
+          .registration{
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+
+          }
+        .container-login{
+          font-size: 14px;
+          color: #005FFF;
+        }
+          .login{
+            text-decoration: none;
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 7px 10px;
+            border-color: #005FFF;
+          }
+          .login:hover{
+            color: #fff;
+            background-color: #005FFF;
+            border-color: #005FFF;
+            border-radius: 5px;
+          }
+        .top-news-image img{
+          box-shadow: 0px -10px 5px -10px rgba(0,0,0,1);
+          object-fit: cover;
+          width: 100%;
+          height: 300px;
+          margin-top: 5px;
+        }
+    h2{
+      text-align: center;
+      margin-top: 50px;
+      font-size: 29px;
+    }
+    .main-category{
+      display: flex;
+      font-weight: bold;
+      font-size: 14px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+      .categoryーcommon{
+        border-radius: 20px;
+        background-color: #EEEEEE;
+        padding: 5px 15px;
+        text-decoration: none;
+        color: #000;
+      }
+      .category1{
+        margin-right: 5px;
+      }
+      .category2{
+        margin: 0px 5px;
+      }
+      .category3{
+        margin: 0px 5px;
+      }
+      .category4{
+        margin-left: 5px;
+      }
+      .backgroud{
+        background-color: #EEEEEE;
+        margin-top: 30px;
+        padding-bottom: 50px;
+      }
+          .new-item-container{
+            display: flex;
+            margin-bottom: 10px;
+            align-items: center;
+            justify-content: space-between;
+            width: 1400px;
+          }
+            .new-item{
+              margin: 40px 0px 0px 70px;
+              font-size: 24px;
+              font-weight: bold;
+            }
+            .show{
+              margin-right: 22%;
+              margin-top: 40px;
+              color: #3261a8;
+              font-size: 15px;
+              cursor: pointer;
+              }
+              .show img{
+                width: 15px;
+                height: 15px;
+              }
+            .show:hover{
+              color: #32a6a8;
+              text-decoration: underline;
+            }
+          .grid{
+            display: grid;
+            grid-template-columns: 257px 187px 187px 187px 187px;
+            grid-template-rows:245px 245px;
+            margin-bottom: 20px;
+            grid-gap: 20px;
+            position: relative;
+          }
+          .grid a{
+            display: block;
+            text-decoration: none;
+          }
+              .item-image-common font{
+                position: absolute;
+                color: #fff;
+                background-color: #000;
+                border-radius: 0px 10px 10px 0px;
+                opacity: 0.6;
+                padding: 2px 9px;
+              }
+              .price1{
+                bottom: 330px;
+                left: 71px;
+              }
+              .price2{
+                bottom: 330px;
+                left: 278px;
+              }
+              .price3{
+                bottom: 330px;
+                left: 485px;
+              }
+              .price4{
+                bottom: 330px;
+                left: 692px;
+              }
+              .price5{
+                bottom: 330px;
+                left: 899px;
+              }
+              .price6{
+                bottom: 65px;
+                left: 71px;
+              }
+              .price7{
+                bottom: 65px;
+                left: 278px;
+              }
+
+              .price8{
+                bottom: 65px;
+                left: 485px;
+              }
+              .price9{
+                bottom: 65px;
+                left: 692px;
+              }
+              .price10{
+                bottom: 65px;
+                left: 899px;
+              }
+              .item-image-common img{
+                width: 185px;
+                height: 185px;
+              }
+            .item-image-common{
+              border : solid 1px #fff ;
+              border-bottom :ridge 1px #EEEEEE;
+              box-shadow : 0 3px 3px rgba(100, 100, 100, 0.3);
+              background-color: #fff;
+            }
+            .item-image1,.item-image6{
+              margin-left: 70px;
+            }
+            .item-image-common:hover{
+              border-color: #75A9FF;
+            }
+              .item-name{
+                text-align: left;
+                margin: 0px 0px 35px 10px;
+                font-size: 14px;
+                color: #000;
+              }
+
+    footer{
+      background-color: #000;
+      width: 100%;
+      height: 100%;
+    }
+        .footer-image img{
+          width: 100%;
+          height: 250px;
+          object-fit: cover;
+        }
+      .footer-container{
+        display: flex;
+        margin-top: 15px;
+        text-align: left;
+        font-size: 12px;
+      }
+        .footer-list1{
+          margin-left: 70px;
+        }
+        .footer-list2{
+          margin-left: 30px;
+        }
+        .footer-list3{
+          margin-left: 50px;
+        }
+        .footer-list4{
+          margin: 55px 0px 0px 30px;
+        }
+        .footer-list5{
+          margin-left: 30px;
+        }
+          .list-title{
+            font-size: 16px;
+            color: #ffffff;
+            font-weight: bold;
+            margin-bottom: 20px;
+          }
+          .list-common li{
+            color: #BBBBBB;
+            margin-bottom: 15px;
+            list-style: none;
+            cursor: pointer;
+          }
+          .list-text:hover{
+            text-decoration: underline;
+          }
+          .footer-aikon{
+            display: flex;
+            margin-top: 30px;
+          }
+            .twitter{
+              margin-right: 30px;
+            }
+            .twitter img{
+              width:30px;
+            }
+            .facebook img{
+              width:25px;
+            }
+      .footer-detail{
+        margin: 30px 0px;
+        display: flex;
+      }
+        .footer-mercari-logo{
+          width: 135px;
+          height: 36px;
+          margin-left: 210px;
+          cursor: pointer;
+        }
+        .copy{
+          margin-left: 350px;
+          font-size: 15px;
+          color: #fff;
+        }
+    .kotei-button{
+      position: fixed;
+      bottom: 30px; /* 基準の位置を画面の一番下に指定する */
+      right: 30px; /* 基準の位置を画面の一番右に指定する */
+      z-index: 10;
+    }
+      img#kotei-bottan{
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        z-index: 30;
+        border-radius: 50%;
+      }
